@@ -6,9 +6,9 @@
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;promotion de -50% parfume homme
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;promotion de -50% parfume homme
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;promotion de -50% parfume homme
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;promotion de -50% parfume homme
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;promotion de -50% parfume homme
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;promotion de -50% parfume homme
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;promotion de -70% parfume femme
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;promotion de -70% parfume femme
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;promotion de -70% parfume femme
     </marquee>
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top  sticky-top p-0">
         <button type="button" class="navbar-toggler m-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
