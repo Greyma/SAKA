@@ -1,0 +1,59 @@
+.navbarClass {
+    top: 0;
+    opacity: 1 ;
+    position: inherit;
+    width: 100%;
+    z-index: 999;
+    font-family: 'Raleway', 'sans-serif', 'monospace';
+}
+.navbarClass marquee {
+    background-color: black; 
+    font-size: 1.2em; 
+    color: white;
+    padding: 2px;
+    display: block; /*block - none*/
+    visibility: visible;/*visible - hidden*/
+}
+
+.navbarClass .navbar {
+    color: black;
+    font-family: 'Raleway', 'sans-serif', 'monospace';
+    font-size: 1.1em;
+}
+
+.navbarClass .navbar div a{
+    color: black;
+    font-family: 'Raleway', 'sans-serif', 'monospace';
+    font-size: 1.1em;
+}
+
+.navbarClass .navbar-nav a :hover{
+    color: #686D76;
+    cursor: pointer; 
+}
+
+.navbarClass .navbar-nav .nav-item :hover{
+    color: #686D76;
+}
+
+.navbarClass .dropdown-menu li :hover{
+    border-radius: 10px;
+    width: 60%;
+    color: #686D76;
+}
+
+.navbarClass .icones{
+    flex-direction: row;
+}
+
+.navbarClass .top-search {
+    margin: 10px;
+}
+
+.navbarClass .top-search .input-group-addon{
+    line-height: 40px;
+}
+.navbarClass .top-search input .form-control{
+    color: #EEEDEB;
+}
+

@@ -1,0 +1,349 @@
+/*carousel*/
+
+.carousel-caption {
+    top: 30%;
+    font-family: 'Raleway', 'sans-serif', 'monospace';
+    font-size: 2em;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5em;
+}
+
+.carousel-item img{
+    height: 86vh; 
+}
+
+/* S'assurer que les images s'ajustent bien au conteneur */
+.carousel-item img.carousel-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:1280px) {
+    .post-slide .post-content {
+        padding: 0px 15px 25px 15px;
+    }
+    .carousel-item img{
+        height: 76vh; 
+    }
+    .carousel-item h5{
+        font-size: 2.4em;
+        
+    }
+}
+@media only screen and (max-width:900px) {
+    .carousel-item img{
+        height: 56vh; 
+    }
+
+    .carousel-item h5{
+        font-size: 2em;   
+    }
+}
+@media only screen and (max-width:700px) {
+    .carousel-item img{
+        height: 46vh; 
+    }
+    .carousel-item h5{
+        font-size: 1.7em;
+        
+    }
+    .carousel-item p{
+        font-size: 0.9em;
+        
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .carousel-item img{
+        height: 40vh; 
+    }
+
+    .carousel-item h5{
+        font-size: 1.3em;
+    }
+
+    .carousel-item p{
+        font-size: 0.5em;   
+    }
+
+}
+.img-fluid {
+    height: 600px;
+    width: 100%;
+}
+
+/*About*/ 
+#about img{
+    border-radius: 20px;
+}
+.videoDiv{
+    border-radius:20px;
+    overflow: hidden;
+
+}
+
+/* parfum */
+#news-slider {
+    margin-top: 80px;
+}
+
+.post-slide {
+    background: #fff;
+    margin: 20px 15px 20px;
+    border-radius: 20px;
+    padding-top: 1px;
+    box-shadow: 0px 14px 22px -9px #bbcbd8;
+    overflow: hidden;
+}
+
+.post-slide .post-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.post-slide .post-img img {
+    width: 100%;
+    height: 300px;
+    transform: scale(1, 1);
+    transition: transform 0.2s linear;
+}
+
+.post-slide:hover .post-img img {
+    transform: scale(1.1, 1.1);
+}
+
+.post-slide .over-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.75) 0%, rgba(64, 64, 64, 0.6) 100%);
+    transition: all 0.50s linear;
+}
+
+.post-slide:hover .over-layer {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.post-slide .over-layer i {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+}
+
+.post-slide .post-content {
+    background: #fff;
+    padding: 2px 20px 40px;
+    border-radius: 15px;
+}
+
+.post-slide .post-title a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.post-slide .post-title a:hover {
+    color: #000000b5;
+}
+
+.post-slide .post-description {
+    line-height: 24px;
+    color: #808080;
+    margin-bottom: 25px;
+}
+
+.post-slide .post-date {
+    color: #a9a9a9;
+    font-size: 14px;
+}
+
+.post-slide .post-date i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #CFDACE;
+}
+
+.post-slide .read-more {
+    padding: 7px 20px;
+    float: right;
+    font-size: 12px;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.post-slide .read-more:hover {
+    transition: 0.3s;
+    background: #4a4f54;
+    color: #fff;
+}
+
+.owl-controls .owl-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-controls .owl-buttons .owl-prev {
+    background: #fff;
+    position: absolute;
+    top: -13%;
+    left: 15px;
+    padding: 0 18px 0 15px;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+
+.owl-controls .owl-buttons .owl-next {
+    background: #fff;
+    position: absolute;
+    top: -13%;
+    right: 15px;
+    padding: 0 15px 0 18px;
+    border-radius: 50px;
+    box-shadow: -3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+
+.owl-controls .owl-buttons .owl-prev:after,
+.owl-controls .owl-buttons .owl-next:after {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: #333;
+    font-size: 30px;
+}
+
+.owl-controls .owl-buttons .owl-next:after {
+    content: "\f105";
+}
+
+
+/*Servie*/
+#service{
+    background-color: rgba(0, 0, 0, 0.859);
+    color: #EEEDEB;
+}
+
+/*Nos Clients */
+.testimonials-clean {
+    color:#313437;
+    }
+    
+    .testimonials-clean p {
+    color:#7d8285;
+    }
+    
+    .testimonials-clean h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+    }
+    
+    @media (max-width:767px) {
+    .testimonials-clean h2 {
+        margin-bottom:25px;
+        padding-top:25px;
+        font-size:24px;
+    }
+    }
+    
+    .testimonials-clean .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+    }
+    
+    .testimonials-clean .intro p {
+    margin-bottom:0;
+    }
+    
+    .testimonials-clean .people {
+    padding:50px 0 20px;
+    }
+    
+    .testimonials-clean .item {
+    margin-bottom:32px;
+    }
+    
+    @media (min-width:768px) {
+    .testimonials-clean .item {
+        height:220px;
+    }
+    }
+    
+    .testimonials-clean .item .box {
+    padding:30px;
+    background-color:#fff;
+    position:relative;
+    }
+    
+    .testimonials-clean .item .box:after {
+    content:'';
+    position:absolute;
+    left:30px;
+    bottom:-24px;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-width:12px 15px;
+    border-top-color:#fff;
+    }
+    
+    .testimonials-clean .item .author {
+    margin-top:28px;
+    padding-left:25px;
+    }
+    
+    .testimonials-clean .item .name {
+    font-weight:bold;
+    margin-bottom:2px;
+    color:inherit;
+    }
+    
+    .testimonials-clean .item .title {
+    font-size:13px;
+    color:#9da9ae;
+    }
+    
+    .testimonials-clean .item .description {
+    font-size:15px;
+    margin-bottom:0;
+    }
+    
+    .testimonials-clean .item img {
+    max-width:40px;
+    height: 40px;
+    float:left;
+    margin-right:12px;
+    margin-top:-5px;
+    }
+          
+       
+/*pub*/
+.pub{
+    margin-top: 5%;
+}
+.pub img{
+    cursor: pointer;
+}
+
+.pub .fixed-size-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}

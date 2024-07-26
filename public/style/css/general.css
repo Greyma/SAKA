@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEDEB;
+    font-family: 'Raleway', 'sans-serif', 'monospace';
+    background-image: url("https://i.pinimg.com/564x/4f/9c/cf/4f9ccf55d9dfdb2800517e3588cb89da.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 100vh; 
+}
+
+:root {
+    --font1: "Raleway", sans-serif;
+    --font2: "Raleway", sans-serif;
+    --font3: "Raleway", sans-serif;
+  }
