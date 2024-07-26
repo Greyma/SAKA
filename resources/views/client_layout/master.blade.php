@@ -23,7 +23,6 @@
     <link href="{{asset('style/css/footer.css')}}" rel="stylesheet">
     <link href="{{asset('style/css/general.css')}}" rel="stylesheet">
    
-
      <!-- Google founts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
