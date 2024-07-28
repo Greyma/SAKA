@@ -2,19 +2,7 @@
     @section('title')
       accueil
     @endsection
-    @section('style')
-        <link href="{{asset('style/css/style.css')}}" rel="stylesheet">
-        <link href="{{asset('style/css/spiner.css')}}" rel="stylesheet">
-    @endsection
     @section('content')
-     <!-- Spinner Start -->
-     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
-            
-        </div>
-        <span class="sr-only">Loading...</span>
-    </div>
-    <!-- Spinner End -->
   <!-- Carousel Start-->
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -24,7 +12,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img id="1" src="{{asset('style/img/Carousel-1.png')}}" class="d-block img-fluid" alt="...">
+            <img id="1" src="../images/Carousel-1.png" class="d-block img-fluid" alt="...">
             <div class="carousel-caption d-md-block">
               <h5>Bienvenue chez SAKA</h5>
               <p>Nous ne vendons pas de parfums, mais vous offrons plutôt la meilleure expérience au monde.</p>
@@ -32,7 +20,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img id="2" src="{{asset('style/img/Carousel-2.png')}}" class="d-block img-fluid" alt="...">
+            <img id="2" src="../images/Carousel-2.png" class="d-block img-fluid" alt="...">
             <div class="carousel-caption d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
@@ -40,7 +28,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img id="3" src="{{asset('style/img/Carousel-3.png')}}" class="d-block img-fluid" alt="...">
+            <img id="3" src="../images/Carousel-3.png" class="d-block img-fluid" alt="...">
             <div class="carousel-caption d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
@@ -69,7 +57,7 @@
                     <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class=" videoDiv position-relative h-100">
                             <video class="position-absolute w-100 h-100" style="object-fit: cover;" controls>
-                                <source src="{{asset('style/img/video5830036792828499033.mp4')}}" type="video/mp4">
+                                <source src="../images/video5830036792828499033.mp4" type="video/mp4">
                                 <!-- https://mdbcdn.b-cdn.net/img/video/forest.mp4 -->
                                 Votre navigateur ne supporte pas la balise vidéo.
                             </video>
@@ -164,7 +152,7 @@
                 <div id="news-slider" class="owl-carousel newSlides2">
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (3).jpeg')}}" alt="">
+                            <img src="../images/download (3).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -183,7 +171,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-2.png')}}" alt="">
+                            <img src="../images/Carousel-2.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -202,7 +190,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-3.png')}}" alt="">
+                            <img src="../images/Carousel-3.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -221,7 +209,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (4).jpeg')}}" alt="">
+                            <img src="../images/download (4).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -240,7 +228,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (5).jpeg')}}" alt="">
+                            <img src="../images/download (5).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -259,7 +247,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (5).jpeg')}}" alt="">
+                            <img src="../images/download (5).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -315,7 +303,7 @@
                 <div id="news-slider" class="owl-carousel newSlides2">
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (3).jpeg')}}" alt="">
+                            <img src="../images/download (3).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -334,7 +322,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-2.png')}}" alt="">
+                            <img src="../images/Carousel-2.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -353,7 +341,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-3.png')}}" alt="">
+                            <img src="../images/Carousel-3.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -372,7 +360,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (4).jpeg')}}" alt="">
+                            <img src="../images/download (4).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -391,7 +379,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (5).jpeg')}}" alt="">
+                            <img src="../images/download (5).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -410,7 +398,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (5).jpeg')}}" alt="">
+                            <img src="../images/download (5).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -579,7 +567,7 @@
                         <div class="box">
                             <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="{{asset('style/img/download (3).jpeg')}}">
+                        <div class="author"><img class="rounded-circle" src="../images/download (3).jpeg">
                             <h5 class="name">Ben Johnson</h5>
                             <p class="title">CEO of Company Inc.</p>
                         </div>
@@ -588,7 +576,7 @@
                         <div class="box">
                             <p class="description">Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id.</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="{{asset('style/img/download (4).jpeg')}}">
+                        <div class="author"><img class="rounded-circle" src="../images/download (4).jpeg">
                             <h5 class="name">Carl Kent</h5>
                             <p class="title">Founder of Style Co.</p>
                         </div>
@@ -597,7 +585,7 @@
                         <div class="box">
                             <p class="description">Aliquam varius finibus est, et interdum justo suscipit. Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="{{asset('style/img/Carousel-2.jpg')}}">
+                        <div class="author"><img class="rounded-circle" src="../images/Carousel-2.jpg">
                             <h5 class="name">Emily Clark</h5>
                             <p class="title">Owner of Creative Ltd.</p>
                         </div>
@@ -606,7 +594,7 @@
                         <div class="box">
                             <p class="description">Aliquam varius finibus est, et interdum justo suscipit. Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="{{asset('style/img/Carousel-3.jpg')}}">
+                        <div class="author"><img class="rounded-circle" src="../images/Carousel-3.jpg">
                             <h5 class="name">Emily Clark</h5>
                             <p class="title">Owner of Creative Ltd.</p>
                         </div>
@@ -615,7 +603,7 @@
                         <div class="box">
                             <p class="description">Aliquam varius finibus est, et interdum justo suscipit. Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="{{asset('style/img/Carousel-2.jpg')}}">
+                        <div class="author"><img class="rounded-circle" src="../images/Carousel-2.jpg">
                             <h5 class="name">Emily Clark</h5>
                             <p class="title">Owner of Creative Ltd.</p>
                         </div>

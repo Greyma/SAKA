@@ -28,26 +28,22 @@
         const $middelsize = "m-2";
         const $smallsize = "m-1";
 
-        const $img1 = 'style/img/Carousel-1.png';
-        const $img11 = 'style/img/Carousel-2.png';
-        const $parfum = $(".row");
+        const $carousel = $(".carousel-item");
+        const $img = $("img");
+        const $img1 = "../images/Carousel-1.png";
+        const $img11 = "../images/Carousel-2.png";
+        const $parfum = $("#parfumCART");
         function checkWindowSize() {
-            $parfum.removeClass("row-cols-4")
-            $parfum.removeClass("row-cols-2")
-            $parfum.removeClass("row-cols-1")
             if ($(window).width() < 1200) {
+                $parfum.removeClass("row-cols-md-4").addClass("row-cols-md-2");
                 $navbar.find($a).removeClass($normalsize).addClass($middelsize);
-                console.log("Window width: " + $(window).width());
                 if($(window).width() < 600){
-                    $parfum.addClass("row-cols-1");
                     $navbar.find($a).removeClass($middelsize).addClass($smallsize);
-                } else {
-                    $parfum.addClass("row-cols-2");
                 }
                 $('#1').attr("src", $img11);
             } else {
                 $navbar.find($a).removeClass($middelsize).addClass($normalsize);
-                $parfum.addClass("row-cols-4");
+                $parfum.removeClass("row-cols-md-2").addClass("row-cols-md-4");
                 $('#1').attr("src", $img1);
             }
         }
@@ -80,7 +76,7 @@
                 <div id="news-slider" class="owl-carousel newSlides2">
                      <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (3).jpeg')}}" alt="">
+                            <img src="../images/download (3).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -99,7 +95,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-1.png')}}" alt="">
+                            <img src="../images/Carousel-1.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -118,7 +114,7 @@
 
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-3.png')}}" alt="">
+                            <img src="../images/Carousel-3.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -137,7 +133,7 @@
     
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-2.png')}}" alt="">
+                            <img src="../images/Carousel-2.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -161,7 +157,7 @@
                 <div id="news-slider" class="owl-carousel newSlides2">
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-3.png')}}" alt="">
+                            <img src="../images/Carousel-3.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -179,7 +175,7 @@
                     </div>
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (4).jpeg')}}" alt="">
+                            <img src="../images/download (4).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -197,7 +193,7 @@
                     </div>
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (3).jpeg')}}" alt="">
+                            <img src="../images/download (3).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -219,7 +215,7 @@
                 <div id="news-slider" class="owl-carousel newSlides2">
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/download (5).jpeg')}}" alt="">
+                            <img src="../images/download (5).jpeg" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -237,7 +233,7 @@
                     </div>
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-3.png')}}" alt="">
+                            <img src="../images/Carousel-3.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">
@@ -274,7 +270,7 @@
                     </div>
                     <div class="post-slide">
                         <div class="post-img">
-                            <img src="{{asset('style/img/Carousel-1.png')}}" alt="">
+                            <img src="../images/Carousel-1.png" alt="">
                             <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="post-content">

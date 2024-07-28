@@ -2,9 +2,6 @@
 @section('title')
   panier
 @endsection
-@section('style')
-    <link href="{{asset('style/css/panier.css')}}" rel="stylesheet">
-@endsection
 @section('content')
     <!-- start panier -->
 <!-- Start Cart  -->

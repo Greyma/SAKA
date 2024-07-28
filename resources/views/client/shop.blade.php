@@ -2,14 +2,6 @@
 @section('title')
   shop
 @endsection
-@section('style')
-    <link href="{{asset('style/css/shop.css')}}" rel="stylesheet">
-@endsection
-
-@section ('javascript')
-    <script src="{{asset('style/js/shop.js')}}"></script>
-@endsection
-
 @section('content')
     <select class="form-select" aria-label="Default select example">
         <option selected>Selectionner la categorie de notre magasin</option>
@@ -165,4 +157,3 @@
 
     <!-- End Contenaire -->
    @endsection
-

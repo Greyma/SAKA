@@ -2,9 +2,6 @@
     @section('title')
        formulaire
     @endsection
-    @section('style')
-    <link href="{{asset('style/css/styleForum.css')}}" rel="stylesheet">
-    @endsection
  @section('content')
 <!-- Contact 6 - Bootstrap Brain Component -->
  <!-- start contact-un -->
@@ -25,7 +22,7 @@
           <div class="card border border-dark rounded shadow-sm overflow-hidden">
             <div class="card-body p-0">
               <div class="row gy-3 gy-md-4 gy-lg-0">
-                <div class="col-12 col-lg-6 bsb-overlay background-position-center background-size-cover" style="--bsb-overlay-opacity: 0.7; background-image: url('{{asset('style/img/Carousel-2.png')}}');">
+                <div class="col-12 col-lg-6 bsb-overlay background-position-center background-size-cover" style="--bsb-overlay-opacity: 0.7; background-image: url('../images/Carousel-2.png');">
                   <div class="row align-items-lg-center justify-content-center h-100">
                     <div class="col-11 col-xl-10">
                       <div class="contact-info-wrapper py-4 py-xl-5">
